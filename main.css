@@ -7,7 +7,7 @@
  (which for most browsers has a default value of 16px). */
 
 html, body {
-  background-color: red;
+  background-color: maroon;
   font-family: sans-serif;
   margin: 0;
   width: 100%;
@@ -35,7 +35,8 @@ div {
 }
 
 video {
-  background-color: #000000;
+  /*background-color: #000000;*/
+  background-color: tan;
   border: 2px solid black;
 }
 
