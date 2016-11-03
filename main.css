@@ -1,15 +1,15 @@
 /* Taken from codeacademy's practice main.css */
 /* px is width */
-/* one rem unit = the computed value of font-size on the root element. 
- When specified on the font-size property of the root element, the rem units 
- refer to the property’s initial value. 
- This means that 1rem equals the font size of the html element 
+/* one rem unit = the computed value of font-size on the root element.
+ When specified on the font-size property of the root element, the rem units
+ refer to the property’s initial value.
+ This means that 1rem equals the font size of the html element
  (which for most browsers has a default value of 16px). */
 
 html, body {
   background-color: #8CAAD2;
   font-family: sans-serif;
-  margin: 150;
+  margin: 0;
   width: 100%;
   height: 100%;
 }
@@ -19,6 +19,8 @@ h1 {
 }
 
 p {
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 65%;
   min-width: 500px;
 }
@@ -29,9 +31,10 @@ h2 {
 }
 
 div {
-  padding-right: 30px;
+  /*padding-right: 30px;*/
   height: 100%;
   width: 100%;
+  border: 3px solid #385e90;
 }
 
 video {
@@ -50,8 +53,10 @@ video {
 
 .nav {
   background-color: #D2B48C;
-  max-width: 25%;
-  min-width: 140px;
+  max-width: 30%;
+  min-width: 210px;
+  /*margin: 10px;*/
+  /*padding: 8px;*/
   flex: 1;
 }
 
@@ -59,4 +64,8 @@ video {
   padding-left: 20px;
 }
 
-
+/*PROBLEM link AND visited are green, don't know what active means */
+a:link    {color:black; background-color:transparent; text-decoration:none}
+a:visited {color:#385e90; background-color:transparent; text-decoration:none}
+a:hover   {color:green; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
